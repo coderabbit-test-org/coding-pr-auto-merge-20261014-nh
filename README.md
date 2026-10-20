@@ -1,2 +1,3 @@
-# coding-pr-auto-merge-20261014-nh
-Disposable native auto merge contract validation; owner Nikhil Hooda; 2026-10-14
+# Disposable Autofix issue follow-up test
+Owner: Nikhil Hooda. Test date: 2026-10-20.
+This public fixture must never be merged. Run `npm test` to verify arithmetic mean.
