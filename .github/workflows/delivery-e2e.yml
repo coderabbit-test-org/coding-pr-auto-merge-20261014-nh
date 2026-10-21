@@ -1,0 +1,12 @@
+name: Delivery E2E fixture
+on:
+  pull_request:
+    branches: [codex/delivery-e2e-base-20261020]
+permissions:
+  contents: read
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: grep -qx 'ready' e2e-delivery/status.txt
